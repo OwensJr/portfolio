@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Photo Gallery - Owens Ignatius Lavall Jr - Events, moments, and memories">
+    <title>Gallery - Owens Ignatius Lavall Jr</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">Owens Ignatius Lavall Jr.</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+                <li><a href="resume.html" class="nav-link">Resume</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Gallery Header -->
+    <section class="page-header">
+        <h1>Photo Gallery</h1>
+        <p>Moments, events, and memories from my journey</p>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <div class="gallery-container">
+            <!-- Filter Buttons -->
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="projects">Projects</button>
+                <button class="filter-btn" data-filter="team">Team</button>
+                <button class="filter-btn" data-filter="conference">Conference</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid">
+                <!-- Photo 1 -->
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image">
+                        <img src="./Assets/gallery1.jpg" alt="Event Photo 1">
+                        <div class="gallery-overlay">
+                            <button class="gallery-btn" data-lightbox="gallery1">
+                                <span>View</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Tech Meetup 2025</h3>
+                        <p>Networking with aspiring tech young stars at an MTN sponsored event  </p>
+                    </div>
+                </div>
+
+                <!-- Photo 2 -->
+                <div class="gallery-item" data-category="projects">
+                    <div class="gallery-image">
+                        <img src="./Assets/gallery2.jpg" alt="Project Photo 1">
+                        <div class="gallery-overlay">
+                            <button class="gallery-btn" data-lightbox="gallery2">
+                                <span>View</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>E-commerce Launch</h3>
+                        <p>Product demo and presentation</p>
+                    </div>
+                </div>
+
+                <!-- Photo 3 -->
+                <div class="gallery-item" data-category="team">
+                    <div class="gallery-image">
+                        <img src="./Assets/gallery3.jpeg" alt="Team Photo 1">
+                        <div class="gallery-overlay">
+                            <button class="gallery-btn" data-lightbox="gallery3">
+                                <span>View</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Team Building</h3>
+                        <p>Successfully presented an innovative solution to NDUL</p>
+                    </div>
+                </div>
+
+                <!-- Photo 4 -->
+                <div class="gallery-item" data-category="conference">
+                    <div class="gallery-image">
+                        <img src="./Assets/gallery4.jpeg" alt="Conference Photo 1">
+                        <div class="gallery-overlay">
+                            <button class="gallery-btn" data-lightbox="gallery4">
+                                <span>View</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Achievement</h3>
+                        <p>Graduated from the Notre Dame University Liberia</p>
+                    </div>
+                </div>
+
+                <!-- Photo 5 -->
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image">
+                        <img src="./Assets/gallery5.jpeg" alt="Event Photo 2">
+                        <div class="gallery-overlay">
+                            <button class="gallery-btn" data-lightbox="gallery5">
+                                <span>View</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Workshop Session</h3>
+                        <p>Teaching web development fundamentals</p>
+                    </div>
+                </div>
+
+                <!-- Photo 6 -->
+                <div class="gallery-item" data-category="projects">
+                    <div class="gallery-image">
+                        <img src="./Assets/gallery6.jpeg" alt="Project Photo 2">
+                        <div class="gallery-overlay">
+                            <button class="gallery-btn" data-lightbox="gallery6">
+                                <span>View</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Fun Time</h3>
+                        <p>Celebrating a customer</p>
+                    </div>
+                </div>
+
+                <!-- Photo 7 -->
+                <div class="gallery-item" data-category="team">
+                    <div class="gallery-image">
+                        <img src="./Assets/gallery7.jpeg" alt="Team Photo 2">
+                        <div class="gallery-overlay">
+                            <button class="gallery-btn" data-lightbox="gallery7">
+                                <span>View</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Team Building</h3>
+                        <p>Updating Team on project status</p>
+                    </div>
+                </div>
+
+                <!-- Photo 8 -->
+                <div class="gallery-item" data-category="conference">
+                    <div class="gallery-image">
+                        <img src="./Assets/gallery8.jpeg" alt="Conference Photo 2">
+                        <div class="gallery-overlay">
+                            <button class="gallery-btn" data-lightbox="gallery8">
+                                <span>View</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>National Tech Annual Session </h3>
+                        <p>Tech entrepreneurship in Africa</p>
+                    </div>
+                </div>
+
+                <!-- Photo 9 - NEW IMAGE -->
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image">
+                        <img src="./Assets/gallery9.jpeg" alt="My New Event Photo">
+                        <div class="gallery-overlay">
+                            <button class="gallery-btn" data-lightbox="gallery9">
+                                <span>View</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>My New Event</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Feed Section -->
+    <section class="social-feed-section">
+        <div class="social-feed-container">
+            <h2>Latest from Social Media</h2>
+            <p>Follow me on Facebook for more updates and behind-the-scenes content</p>
+            
+            <div class="social-feed-grid">
+                <!-- Facebook Feed Widget -->
+                <div class="social-widget facebook-widget">
+                    <iframe 
+                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1BXLWTguke%2F&tabs=timeline&width=400&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=" 
+                        width="100%" 
+                        height="500" 
+                        style="border:none;overflow:hidden" 
+                        scrolling="no" 
+                        frameborder="0" 
+                        allowfullscreen="true" 
+                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                    </iframe>
+                </div>
+
+                <!-- Social Links Card -->
+                <div class="social-connect-card">
+                    <h3>Connect With Me</h3>
+                    <p>Stay updated with my latest projects, achievements, and insights</p>
+                    
+                    <div class="social-buttons">
+                        <a href="https://www.facebook.com/share/1BXLWTguke/?mibextid=wwXIfr" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           class="social-btn facebook-btn">
+                            <span>Follow on Facebook</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/owens-ignatius-lavall-jr-98a8bb2a9" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           class="social-btn linkedin-btn">
+                            <span>Connect on LinkedIn</span>
+                        </a>
+                    </div>
+
+                    <div class="social-info">
+                        <h4>Why Follow?</h4>
+                        <ul>
+                            <li>Daily updates on new projects</li>
+                            <li>Tech tips and insights</li>
+                            <li>Event announcements</li>
+                            <li>Behind-the-scenes content</li>
+                            <li>Exclusive community access</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social-cta">
+                <p>New posts automatically appear here from my Facebook page. Click "Follow" to get notifications!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Owens Ignatius Lavall Jr. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/owens-ignatius-lavall-jr-98a8bb2a9" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://www.facebook.com/share/1BXLWTguke/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightboxModal" class="lightbox-modal" aria-hidden="true" role="dialog" aria-label="Image viewer">
+	<div class="lightbox-backdrop" data-close></div>
+	<button class="lightbox-close" aria-label="Close (Esc)">&times;</button>
+
+	<button class="lightbox-prev" aria-label="Previous image">‹</button>
+	<img class="lightbox-image" src="" alt="" />
+	<button class="lightbox-next" aria-label="Next image">›</button>
+
+	<div class="lightbox-caption" aria-live="polite"></div>
+</div>
+
+    <script src="./js/facebook-config.js"></script>
+    <script src="./js/facebook-sync.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

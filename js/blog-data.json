@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "date": "Jan 15",
+      "month": "Jan",
+      "day": "15",
+      "title": "Launching My Portfolio Website",
+      "category": "Announcement",
+      "readTime": "3 min read",
+      "excerpt": "Excited to announce the launch of my new portfolio website!",
+      "fullContent": "After months of development... [full content here]"
+    },
+    {
+      "id": 2,
+      "date": "Jan 20",
+      "month": "Jan",
+      "day": "20",
+      "title": "Your New Post Title",
+      "category": "Technical",
+      "readTime": "5 min read",
+      "excerpt": "Your excerpt here...",
+      "fullContent": "Full content here..."
+    }
+  ]
+}
